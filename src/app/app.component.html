@@ -1,0 +1,11 @@
+
+<P> Child-Parent Communication</P>
+
+<app-b [b]="dataB"> </app-b>
+
+<app-a (a)="addItemA($event)" > </app-a>
+
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul>
+
